@@ -23,6 +23,7 @@ nav{
     justify-content: space-between;
     background-color: green;
     position: fixed;
+    z-index: 2git;
 }
 
 nav img{
@@ -61,7 +62,7 @@ nav ul li a:hover{
     margin-left: 8%;
     width: fit-content;
     padding: 20px;
-    background-color: aqua;
+    /* background-color: aqua; */
     height: fit-content;
 }
 
