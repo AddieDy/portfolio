@@ -5,9 +5,9 @@
 }
 
 .hero{
-    /* position: relative; */
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 76vh;
     background: #eff4fd;
     margin-top: 80px;
     padding-top: 100px;
@@ -69,6 +69,7 @@ nav ul li a:hover{
     font-size: 50px;
     color: #212121;
     margin-bottom: 20px;
+    /* background-color: green; */
 }
 
 span{
@@ -77,8 +78,10 @@ span{
 
 .detail p{
     color: #555;
-    /* line-height: 22px; */
-    width: 300px;
+    line-height: 22px;
+    width: 500px;
+    /* background-color: purple; */
+    margin-bottom: 20px;
 }
 
 .detail a{
@@ -93,26 +96,30 @@ span{
 }
 
 .images{
-    width: 45%;
-    height: 80%;
+    width: fit-content;
+    height: fit-content;
     position: absolute;
     bottom: 0;
-    right:100px;
+    right: 0;
 }
 
 .images img{
-    height: 100%;
+    height: auto;
+    width: 600px;
     position: absolute;
-    left: 50px;
+    right: 0;
     bottom: 0;
     transform: translateX(-50%);
-    transition: bottos 1s, left 1s;
+    /* transition: bottom 1s, left 1s; */
+    transition: .3s;
 }
 
 .images:hover .shape{
-    bottom:40px;
+    bottom: 100px;
+    transition: .5s;
 }
 
 .images:hover .boy{
-    left: 5%;
+    right: -200px;
+    transition: .5s;
 }
